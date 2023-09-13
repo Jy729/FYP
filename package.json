@@ -1,0 +1,11 @@
+{
+  "name": "fyp",
+  "version": "1.0.0",
+  "scripts": {
+    "client": "cd client && npm start"
+  },
+  "dependencies": {
+    "react-router-dom": "^6.15.0"
+    
+  }
+}

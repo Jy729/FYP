@@ -1,0 +1,44 @@
+.not-found-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    /* Background color */
+}
+
+.not-found-content {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.not-found-heading {
+    color: red;
+    /* Text color */
+    font-size: 3rem;
+    margin: 0;
+}
+
+.not-found-text {
+    color: #666;
+    font-size: 1.2rem;
+}
+
+.go-back-button {
+    background-color: #007bff;
+    /* Button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.go-back-button:hover {
+    background-color: #0056b3;
+    /* Button color on hover */
+}
