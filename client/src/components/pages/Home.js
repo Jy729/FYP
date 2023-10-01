@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from '../NavBar'; 
+import Slider from '../Slider';
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
   return (
     <div>
       <NavBar />
+      <Slider />
       <h1>Welcome to Crowdfunding Platform</h1>
       <p>Here are the campaigns available:</p>
 
